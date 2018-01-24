@@ -19,5 +19,8 @@
   "devDependencies": {
     "enzyme": "^3.3.0",
     "babel-core": "^6.26.0"
+  },
+  "standard": {
+	  "parser": "babel-eslint"
   }
 }
