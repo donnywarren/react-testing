@@ -31,7 +31,7 @@ describe('ToDos Component', () => {
     expect(component.state('newTodo')).toBe('hello')
   })
 
-  it(`Should create a new todo on the click of a button and update them
+  it(`Should create a new todo on the click of a button and update the
     UI with them`, () => {
     component.find('.new-todo').simulate('click')
     expect(component.state('toDos').length).toBe(3)
